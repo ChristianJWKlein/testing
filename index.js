@@ -7,4 +7,18 @@ const sum = (a, b) => {
   return a + b;
 };
 
-module.exports = sum;
+const square = (a) => {
+  if (!a) {
+    return "Invalid Input";
+  }
+  return a * a;
+};
+
+const cubed = (a) => {
+  if (!a) {
+    return "Invalid Input";
+  }
+  return a * a * a;
+};
+
+module.exports = { sum, square, cubed };
