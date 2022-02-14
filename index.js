@@ -18,7 +18,7 @@ const cubed = (a) => {
   if (!a) {
     return "Invalid Input";
   }
-  return a * a * a;
+  return a ** 3;
 };
 
 module.exports = { sum, square, cubed };
